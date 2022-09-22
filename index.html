@@ -1,4 +1,4 @@
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +7,295 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- BoxIcons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
-    <!-- My JavaScript -->
-    
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="icon-x">
+            <span class="material-symbols-outlined" id="span-close">
+                close
+            </span>
+        </div>
+
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <h2>Toko 88</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li class="active-li"><i class='bx bx-home'></i><a href="#">Dashboard</a></li>
+                <li><i class='bx bx-user'></i><a href="#">Profile</a></li>
+                <li><i class='bx bx-info-circle'></i><a href="#">Pengumuman</a></li>
+                <li><i class='bx bx-group'></i><a href="#">Data Karyawan</a></li>
+                <li><i class='bx bx-table'></i><a href="#">Absensi</a></li>
+                <li><i class='bx bx-notepad'></i><a href="#">Izin</a></li>
+                <li><i class='bx bx-money-withdraw'></i><a href="#">Gaji</a></li>
+                <li><i class='bx bx-receipt'></i><a href="#">Laporan</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-profile mx-auto">
+            <div class="profile">
+                <img src="img/profile.jpg" alt="Profile">
+                <h3 class="h3-profile">Welcome Admin!</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Sidebar -->
+
+
+    <!-- Interface -->
+    <section id="interface">
+        <!-- Header -->
+        <div class="navigation" id="navigate">
+            <div class="btn-toggle">
+                <div>
+                    <i id="menu-btn" class='bx bx-menu-alt-left'></i>
+                </div>
+            </div>
+
+            <div class="profile">
+                <h3 class="h3-profile">Welcome Admin!</h3>
+                <img src="img/profile.jpg" alt="Profile">
+            </div>
+        </div>
+        <!-- Akhir Header -->
+
+        <!-- Content -->
+        <h3 class="i-name">
+            Dashboard
+        </h3>
+
+
+        <div class="top-content">
+            <div class="worker-box">
+                <h3 class="h-worker">3</h3>
+                <p class="p-worker">Jumlah Karyawan</p>
+            </div>
+
+            <div class="time-box">
+                <h3 id="h-time">12:00</h3>
+                <p id="p-date">, 13 Aug 2022</p>
+            </div>
+        </div>
+
+        <div id="table-dash">
+            <table>
+                <tr class="table-header">
+                    <th>Nama</th>
+                    <th>Alamat</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p>aktif</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>John Doe</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="worker-name">
+                        <img src="img/agus.jpg" alt="John Doe">
+                        <div class="worker-desc">
+                            <h5>Bawah</h5>
+                            <p>johndoe88@gmail.com</p>
+                        </div>
+                    </td>
+                    <td class="worker-addr">
+                        <h5>Jl. Raya Jungkat No. 26</h5>
+                    </td>
+                    <td class="worker-status">
+                        <p class="p-nonactive">cuti</p>
+                    </td>
+                    <td class="worker-edit">
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- 3 baris ini hasil coba, nanti hapus dan perbaiki -->
+        <p>Absensi jam 7-10</p>
+        <input class="submit" type="submit" id="checktimer" value="Check"/>
+        <p id=timer style="display: none;">Belum waktunya absensi</p>
+        <!-- 3 baris di atas hasil coba -->
+
+        <!-- Akhir Content -->
+    </section>
+    <!-- Akhir Interface -->
+
+
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Show/Hide Sidebar -->
+    <!-- Open Sidebar -->
+    <script>
+        $('#menu-btn').click(function(){
+            $('#sidebar').toggleClass("active");
+            document.getElementById('menu-btn').style.display = "none";
+        })
+    </script>
+    <!-- Close Sidebar -->
+    <script>
+        $('#span-close').click(function(){
+            $('#sidebar').removeClass("active");
+            document.getElementById('menu-btn').style.display = "block";
+        })
+    </script>
+
+    <!-- Date & Time -->
+    <script>
+    function Time() {
+        setTimeout(function() {
+            const d = new Date();
+            const n = d.toLocaleTimeString('en-GB');
+            document.getElementById("h-time").innerHTML = n;
+            Time();
+        }, 1000)
+    }
+    Time();
+    </script>
+
+    <script>
+    window.onload = setInterval(date,1000);
+    function date()
+    {
+        var d = new Date();
+        var day = d.getDay();
+        var date = d.getDate();
+        var year = d.getFullYear();
+        var month = d.getMonth();
+        var monthArr = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November","Desember"];
+        var DayArr = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
+        day = DayArr[day];
+        month = monthArr[month];
+        document.getElementById('p-date').innerHTML = day+", "+date+" "+month+" "+year;
+    }
+    </script>
+
+    <!-- Enabled Button during Spesific Time -->
+    <script>
+    var enableDisable = function (){                    
+        var UTC_hours = new Date().getUTCHours()+7;
+        var UTC_minutes = new Date().getUTCMinutes();      
+
+        if (UTC_hours >= 7 && UTC_minutes < 57){
+            document.getElementById('checktimer').disabled = false;
+            document.getElementById('timer').style.display = 'none';
+        }else{
+            document.getElementById('checktimer').disabled = true;
+            document.getElementById('timer').style.display = 'block';
+        }
+    };
+    setInterval(enableDisable, 1000);
+    enableDisable();
+    </script>
 </body>
 </html>
